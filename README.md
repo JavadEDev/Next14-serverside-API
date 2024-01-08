@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next14 Server-Side App with Server Actions, Infinite Scroll & Framer Motion Animations
 
-## Getting Started
+![App Screenshot](https://github.com/Javad-EB/Next14-serverside-API/blob/main/public/screenshot.png)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This application is built using Next.js 14, TypeScript, TailwindCSS, and consumes the [Shikimori API](https://shikimori.one/api/doc/1.0/animes) to create a server-side rendered app. It incorporates server actions, infinite scroll, and Framer Motion animations for a modern user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Server Actions:** Leverage server-side rendering for optimized performance.
+- **Infinite Scroll:** Provides a seamless browsing experience with continuous loading of content.
+- **Framer Motion Animations:** Implements smooth and engaging UI animations.
+- **API Integration**: Utilizes the Shikimori API to fetch anime data.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
 
-## Learn More
+The app is deployed on Vercel. You can access the live version [here](https://next14-serverside-api.vercel.app).
 
-To learn more about Next.js, take a look at the following resources:
+## Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/Javad-EB/Next14-serverside-API.git
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
